@@ -1,0 +1,350 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0px;
+    scroll-behavior: smooth;
+    font-family: 'Noto Serif Bengali', serif;
+
+}
+
+* a {
+    text-decoration: none;
+}
+
+
+/* header */
+
+.header {}
+
+
+.header img {
+    display: block;
+    margin: 0px auto;
+    width: 200px;
+    border: solid 3px rgb(10, 214, 153);
+    border-radius: 50%;
+}
+
+.header h1 {
+    font-family: 'Noto Serif Bengali';
+    text-align: center;
+    font-size: 30px;
+
+}
+
+
+/* stiky start */
+
+.topnav {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+}
+
+
+/* stiky end */
+
+
+/* navbar start from here */
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(3, 44, 109);
+}
+
+
+ul.topnav li {
+    float: left;
+}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+ul.topnav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+ul.topnav li a.active {
+    background-color: #23003b;
+}
+
+.seachbox {
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+    padding: 5px;
+    font-size: larger;
+}
+
+/* navbar ended here */
+
+
+/* content start from here */
+.introduction-hedaing h2 {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    width: 25%;
+    background-color: #111;
+    border-radius: 7px;
+    color: white;
+}
+
+/* content sub heading start from here */
+.introduction-subhedaing h2 {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    width: 35%;
+    background-color: rgb(0, 32, 62);
+    border-radius: 7px;
+    color: white;
+}
+
+
+.running-condition {
+    display: block;
+    width: 10%;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    border: 3px solid midnightblue;
+    color: black;
+    border-radius: 10px;
+
+}
+
+
+
+
+/* card start */
+.card-continer {
+    box-sizing: border-box;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: hsl(192, 20%, 95%);
+}
+
+.card {
+    width: 300px;
+    margin: 10px;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 8px #a9f122;
+
+}
+
+.card:hover {
+    box-shadow: 3px 4px 5px #f0790a;
+}
+
+.img-style {
+    width: 100%;
+}
+
+.card-body {
+    padding: 8px;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-description {
+    margin-top: 5px;
+    text-align: justify;
+    font-size: 19px;
+
+}
+
+/* card end */
+
+
+
+/* for dive clear */
+.div-4 {
+    clear: both;
+}
+
+
+/* footer section start from here */
+
+
+.social-icon {
+    background-color: #b5f8fb;
+    text-align: center;
+    width: 100%;
+    margin: 0px auto;
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(35, 96, 239);
+    display: flex;
+    justify-content: center
+}
+
+.social-icon>a {
+    padding: 15px;
+}
+
+.facebook:hover {
+    color: crimson;
+    transition: 1s;
+    text-shadow: 1px 3px cornflowerblue;
+    text-decoration: none;
+}
+
+.youtube:hover {
+    color: crimson;
+    transition: 1s;
+    text-shadow: 1px 3px cornflowerblue;
+    text-decoration: none;
+}
+
+.twitter:hover {
+    color: crimson;
+    transition: 1s;
+    text-shadow: 1px 3px cornflowerblue;
+    text-decoration: none;
+}
+
+.whatsapp:hover {
+    color:#e1134a;
+    transition: 1s;
+    text-shadow: 1px 1px rgb(0, 143, 191);
+    text-decoration: none;
+}
+
+#youtube {
+    color: red;
+}
+
+.mobile:hover {
+    color:#e1134a;
+    transition: 1s;
+    text-shadow: 1px 1px rgb(0, 143, 191);
+    text-decoration: none;
+
+}
+
+
+
+.copyright {
+    background-color: #b5f8fb;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.copyright p {
+    color: cornsilk;
+    display: inline;
+    text-size-adjust: inherit;
+}
+
+.copyright a {
+    font-size: medium;
+    text-decoration: none;
+}
+
+
+
+
+/* for mobile device */
+
+@media screen and (max-width: 600px) {
+
+    ul.topnav li.right,
+    ul.topnav li {
+        float: left;
+    }
+
+
+    /* navber start */
+    ul.topnav li a {
+        display: block;
+        color: white;
+        text-align: center;
+
+        text-decoration: none;
+        font-size: 0.8rem;
+        font-weight: bolder;
+    }
+
+    /* navbar end */
+
+
+
+    .seachbox {
+        float: none;
+        width: 100%;
+        margin: 0px auto;
+        font-size: 30px;
+        text-align: center;
+        display: none;
+    }
+
+
+    /* header start */
+
+    .header img {
+        display: block;
+        margin: 0px auto;
+        width: 100px;
+        border: solid 3px rgb(10, 214, 153);
+        border-radius: 50%;
+    }
+
+    .header h1 {
+        font-family: 'Noto Serif Bengali';
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+
+    }
+    /* header end */
+
+/* it is for .running-condition */
+    .running-condition {
+        display: block;
+        width: 35%;
+        margin: 0px auto;
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+        border: 3px solid midnightblue;
+        color: black;
+        border-radius: 10px;
+    
+    }
+
+/* from here start social icon */
+
+.social-icon {
+    background-color: #b5f8fb;
+    text-align: center;
+    width: 100%;
+    margin: 0px auto;
+    text-decoration: none;
+    font-size: 22px;
+    color: rgb(35, 96, 239);
+    display: flex;
+    justify-content: center
+}
+
+    .social-icon>a {
+        padding: 5px;
+    }
+
+
+}
